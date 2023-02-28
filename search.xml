@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>XSCTF 联合招新赛 决赛 WP</title>
+      <link href="/2023/02/28/XSCTF%20%E8%81%94%E5%90%88%E6%8B%9B%E6%96%B0%E8%B5%9B%20%E5%86%B3%E8%B5%9B%20WP/"/>
+      <url>/2023/02/28/XSCTF%20%E8%81%94%E5%90%88%E6%8B%9B%E6%96%B0%E8%B5%9B%20%E5%86%B3%E8%B5%9B%20WP/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>这是第一次参加CTF类型的比赛 也是第一次试着写WP~</p><h2 id="MISC"><a href="#MISC" class="headerlink" title="MISC"></a>MISC</h2><h3 id="中等-shark-u"><a href="#中等-shark-u" class="headerlink" title="[中等] shark_u"></a>[中等] shark_u</h3><p><img src="https://s3.bmp.ovh/imgs/2023/02/28/e9a5f4f0162ab6a8.png"></p><p><img src="https://s3.bmp.ovh/imgs/2023/02/28/58677b71844cfd1b.png"></p><p><a href="https://www.cnblogs.com/Cl0ud/p/11824023.html">流量题入门参考</a></p><p>看到题目说密码直接输入 http.request.method==POST</p><p>发现rar 选择显示原始数据 另存为rar文件</p><p>发现rar包有密码 怀疑是伪加密 捣鼓半天没搞出来 于是想回题目 弱密码</p><p>（刚入门  工具过于拉  爆破不了） 只能翻看数据包 筛选text</p><p><img src="https://s3.bmp.ovh/imgs/2023/02/28/fdc55ee6cb6dfbcd.png"></p><p>发现成功登陆数据包 输入得到docx文件 进入发现看不见 ctrl+A全选复制</p><p>复制到其他地方就可以看见</p><p><img src="https://s3.bmp.ovh/imgs/2023/02/28/632f5f3b2ca5103f.png"></p><p>flag：flag{vv0_noNono_dont_6e_x1Aoheizi_ok?}</p><h3 id="简单-easy-logo"><a href="#简单-easy-logo" class="headerlink" title="[简单] easy_logo"></a>[简单] easy_logo</h3><p><img src="https://s3.bmp.ovh/imgs/2023/02/28/c19e7b6218691762.png"></p><p><img src="https://s3.bmp.ovh/imgs/2023/02/28/a85f1c1145af2930.png"></p><p>用stegsolve打开分解gif为一张张图片</p><p>一开始直接每张图看是否直接藏在里面 找了半天没找着</p><p>然后想起一题是用黑白来表示二进制101 于是直接将图片黑白换为101</p><p>（不认识华师战队的队标 一开始把那张小小的也当成白色）</p><p>后面发现应该是分隔 于是换为空格</p><p>手打就手打 不会脚本捏</p><p><img src="https://s3.bmp.ovh/imgs/2023/02/28/378fa3e1461a4ba1.png"></p><p><img src="https://s3.bmp.ovh/imgs/2023/02/28/1ed61e7e0cb41f84.png"></p><p><em><strong>（关注重点：flag二进制为1100110 1101100 1100001 1100111）</strong></em></p><p>flag：flag{c0ngratu1ati0n5!}</p><h3 id="简单-猜数字1-0-未解出……"><a href="#简单-猜数字1-0-未解出……" class="headerlink" title="[简单] 猜数字1.0  (未解出……"></a>[简单] 猜数字1.0  (未解出……</h3><p><img src="https://s3.bmp.ovh/imgs/2023/02/28/1690fe90fefd4b5e.png"></p><p>我不理解……  网站转换和一个脚本转换都转出来24位</p><p>audacity数出来也是24位：1596#38952#73751#4185856</p><p><img src="https://s3.bmp.ovh/imgs/2023/02/28/0cf4ead323ee00ef.png"></p><p>看着题目 flag{数字} 折腾了半天#如何转换  最后都没搞出来……</p><p>最后得到同学的一个脚本</p><p><img src="https://s3.bmp.ovh/imgs/2023/02/28/44612cbe73061ff1.png"></p><p>2是哪冒出来的……</p><p><em><strong>（以后音频题还是windows和linux两个脚本一起用吧……）</strong></em></p><p>flag：15926#38952#73751#4185856</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> WP </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> XSCTF </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2023/02/21/hello-world/"/>
+      <url>/2023/02/21/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
