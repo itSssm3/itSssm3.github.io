@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>NCTF 2022 WP</title>
+      <link href="/posts/0c09e3e54cab/"/>
+      <url>/posts/0c09e3e54cab/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul><li>做了一题 其他的靠队友猛猛推 o.0</li></ul><h1 id="Misc"><a href="#Misc" class="headerlink" title="Misc"></a>Misc</h1><h2 id="只因因"><a href="#只因因" class="headerlink" title="只因因"></a>只因因</h2><p>题目：</p><p><img src="https://s3.bmp.ovh/imgs/2023/03/17/a4dbbb3787ee71fa.png"></p><p>去到题目给的网站</p><p><img src="https://s3.bmp.ovh/imgs/2023/03/17/76969656ff1b1a28.png"></p><p>选human 输入题目给的基因序列</p><p>输多几个找到共同显示的染色体</p><p><img src="https://s3.bmp.ovh/imgs/2023/03/17/e29dba80689da572.png"></p><p>找到基因简写</p><p><img src="https://s3.bmp.ovh/imgs/2023/03/17/d96c0b725f9796d2.png"></p><p>👇👇</p><p><img src="https://s3.bmp.ovh/imgs/2023/03/17/f97617dd02ff8a1c.png"></p><p>flag：NCTF{254e72a3768938792446548561412d43}</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> WP </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> NCTF </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>PKU GeekGame WP</title>
       <link href="/posts/7d9fbcf479b6/"/>
       <url>/posts/7d9fbcf479b6/</url>
