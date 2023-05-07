@@ -11,7 +11,7 @@
     
     <url>
         <loc>https://itsssm3.github.io/about/</loc>
-        <lastmod>2023-04-23T13:15:10.557Z</lastmod>
+        <lastmod>2023-05-07T09:07:40.799Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -20,16 +20,7 @@
     
     <url>
         <loc>https://itsssm3.github.io/tags/</loc>
-        <lastmod>2023-02-27T11:43:20.420Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://itsssm3.github.io/link/</loc>
-        <lastmod>2023-02-27T11:41:04.622Z</lastmod>
+        <lastmod>2023-05-07T08:14:33.839Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -38,7 +29,16 @@
     
     <url>
         <loc>https://itsssm3.github.io/categories/</loc>
-        <lastmod>2023-02-27T11:41:00.203Z</lastmod>
+        <lastmod>2023-05-07T08:14:28.900Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://itsssm3.github.io/link/</loc>
+        <lastmod>2023-05-07T08:14:24.468Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
